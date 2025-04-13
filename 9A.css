@@ -100,17 +100,3 @@ a:active {
 .copy {
     color: white;
 }
-@media (max-width: 768px) {
-    .grid .item {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    .rekomendasi {
-        margin: 20px 5%;
-    }
-
-    .banner img {
-        height: auto;
-    }
-}
