@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #201d1d;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #a02aab 
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Name List - Grid Layout */
+.name-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+/* Name List Items */
+.name-list li {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+/* Hover Effects */
+.name-list li:hover {
+    background-color: #a02aab;
+    transform: scale(1.1);
+    border-color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .name-list {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    header {
+        font-size: 20px;
+    }
+}
+a {
+    color:  rgb(255, 255, 255); /* Menetapkan warna teks putih */
+    text-decoration: none; /* Menghilangkan garis bawah jika tidak diinginkan */
+}
+
+a:visited {
+    color: rgb(255, 255, 255); /* Warna tetap putih setelah dikunjungi */
+}
+
+a:hover {
+    color: white; /* Warna tetap putih saat dihover */
+}
+
+a:active {
+    color: white; /* Warna tetap putih saat diklik */
+}
+.copy {
+    color: white;
+}
