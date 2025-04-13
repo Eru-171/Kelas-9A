@@ -70,8 +70,9 @@ nav ul li a {
 
 .grid .item img {
     width: 100%;
-    height: 250px;
+    height: auto;
     object-fit: cover;
+    max-height: 250px:
 }
 
 footer {
@@ -98,4 +99,18 @@ a:active {
 }
 .copy {
     color: white;
+}
+@media (max-width: 768px) {
+    .grid .item {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .rekomendasi {
+        margin: 20px 5%;
+    }
+
+    .banner img {
+        height: auto;
+    }
 }
